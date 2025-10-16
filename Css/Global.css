@@ -1,11 +1,23 @@
 /*Este archivo contiene los elementos globales del proyecto*/
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /*Eliminamos los margenes exteriores*/
+    padding: 0; /*Eliminamos los margenes interiores*/
+    box-sizing: border-box; /*Modificamos el modelo de caja estándar*/
 }
 
-:root{
-    
+/* Seccion para custom propertys */
+:root{ 
+
+    /* Variables de colores */
+
+        --color_principal: #002349;
+        --color_secundario: #ffffff;
+
+    /* Variables de letras (textos)*/
+
+        --color_texto-oscuro: #191919;
+        --color_texto-claro: #f5f5f5;
+        --fuente_principal: 'Poppins', sans-serif;
+
 }
