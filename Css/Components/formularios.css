@@ -1,14 +1,4 @@
 
-.posicionamiento_formularios{ /*Parametros para centrar el formulario en el main*/
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
 .logotipo_formularios{ /*Aplicamos estilos al logo de la aplicacion*/
     color: var(--color_logo);
     font-family: var(--fuente_logo);
@@ -62,14 +52,14 @@
     justify-content:space-around;
 }
 
-.link_formulario-registro{ /*Aplicamos estilos al link del formulario*/
+.link_formulario_inicio-registro{ /*Aplicamos estilos al link del formulario*/
     color: var(--color_terceario);
     text-decoration: none;
     align-self: flex-start;
     margin-left: 25px;
 }
 
-.link_formulario-contraseña{ /*Aplicamos estilos al link del formulario*/
+.link_formulario_inicio-contraseña{ /*Aplicamos estilos al link del formulario*/
     color: var(--color_terceario);
 }
 
