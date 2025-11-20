@@ -10,14 +10,27 @@
 :root{ 
 
     /* Variables de colores */
-
+        --Color_fondo: linear-gradient(#002349 35%, #003977);
         --color_principal: #002349;
         --color_secundario: #ffffff;
+        --color_terceario: #957C3D;
+        --color_capos_formulario: #EDEDED;
+        --color_borde_formulario: rgba(0, 0, 0, 0.25);
 
     /* Variables de letras (textos)*/
 
         --color_texto-oscuro: #191919;
-        --color_texto-claro: #f5f5f5;
         --fuente_principal: 'Poppins', sans-serif;
 
+    /* Variables de tamaño*/
+
+    /* Variables del logo*/
+        --color_logo:#ffffff;
+        --fuente_logo: 'Poppins', sans-serif;
+        --tamaño_logo-grande:50px;
+        --grosor_logo:lighter;
+}
+
+body{
+    background-image: var(--Color_fondo);
 }
