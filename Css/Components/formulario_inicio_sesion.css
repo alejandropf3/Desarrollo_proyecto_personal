@@ -1,0 +1,80 @@
+
+.posicionamiento_formularios{ /*Parametros para centrar el formulario en el main*/
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logotipo_formularios{ /*Aplicamos estilos al logo de la aplicacion*/
+    color: var(--color_logo);
+    font-family: var(--fuente_logo);
+    font-weight: var(--grosor_logo);
+    font-size: var(--tamaño_logo-grande);
+}
+
+.formulario_inicio{ /*Parametros para el contenedor del formulario*/
+    height: 460px;
+    width: 500px;
+    background-color: var(--color_secundario);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    gap: 20px;
+}
+
+.formulario_inicio_titulo{ /*Estilos para el titulo del formualrio*/
+    color: var(--color_terceario);
+    font-size: 30px;
+    font-family: var(--fuente_principal);
+    
+}
+
+.formulario_inicio-formulario{ /*Parametros del formulario*/
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.formulario_inicio_input{ /*Aplicamos estilos a los imputs*/
+    height: 50px;
+    width: 400px;
+    background-color: var(--color_capos_formulario);
+    padding: 10px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: var(--color_borde_formulario);
+}
+
+.formulario_inicio_navegacion{ /*Aplicamos parametros al contenedor de navegacion*/
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.link_formulario-registro{ /*Aplicamos estilos al link del formulario*/
+    color: var(--color_terceario);
+    text-decoration: none;
+    align-self: flex-start;
+    margin-left: 25px;
+}
+
+.link_formulario-contraseña{ /*Aplicamos estilos al link del formulario*/
+    color: var(--color_terceario);
+}
+
+.linea{
+    width: 90%;
+    background-color: var(--color_terceario);
+    height: 3px;
+}

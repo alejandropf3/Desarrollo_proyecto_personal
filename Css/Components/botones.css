@@ -1,0 +1,21 @@
+
+
+.boton{ /*Componente boton*/
+
+    /*Dimenciones y tipo de display*/
+    display: flex;
+    height: 50px;
+    width: 150px;
+    /*Color de fondo y letras*/
+    background-color: var(--color_terceario);
+    color: var(--color_secundario);
+    /*Tipo de fuente y grosor*/
+    font-family: var(--fuente_principal);
+    font-weight:normal;
+    border-radius: 8px; /*Radio del borde*/
+    /*Alineamos los elementos*/
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none; /*Eliminamos la decoracion al texto*/
+}
