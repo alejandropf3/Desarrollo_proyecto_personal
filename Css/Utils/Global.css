@@ -10,7 +10,6 @@
 :root{ 
 
     /* Variables de colores */
-        --Color_fondo: linear-gradient(#002349 35%, #003977);
         --color_principal: #002349;
         --color_secundario: #ffffff;
         --color_terceario: #957C3D;
@@ -23,6 +22,9 @@
         --fuente_principal: 'Poppins', sans-serif;
 
     /* Variables de tamaño*/
+        --alto_header: 100px;
+        --alto_footer: 150px;
+        --alto_main: calc(100vh - (var(--alto_footer) + var(--alto_header))); 
 
     /* Variables del logo*/
         --color_logo:#ffffff;
@@ -32,6 +34,6 @@
 }
 
 body{
-    background-image: var(--Color_fondo);
+    background-color: var(--color_principal);
     font-family: var(--fuente_principal);
 }
