@@ -9,7 +9,13 @@
 }
 
 .linea{ /*Le aplicamos estilos a la linea de separacion*/
-    width: 90%;
+    width: 95%;
+    background-color: var(--color_terceario);
+    height: 3px;
+}
+
+.linea-texto{
+    width: 70%;
     background-color: var(--color_terceario);
     height: 3px;
 }
@@ -32,7 +38,7 @@
 
 .formulario_input{ /*Aplicamos estilos a los imputs*/
     height: 50px;
-    width: 400px;
+    width: 370px;
     background-color: var(--color_capos_formulario);
     padding: 10px;
     border-radius: 3px;
@@ -59,7 +65,7 @@
 
 .formulario_inicio_contenedor{ /*Parametros para el contenedor del formulario*/
     height: 480px;
-    width: 500px;
+    width: var(--ancho_formulario);
     background-color: var(--color_secundario);
     border-radius: 3px;
     display: flex;
@@ -81,7 +87,7 @@
     color: var(--color_terceario);
     text-decoration: none;
     align-self: flex-start;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 
@@ -89,7 +95,7 @@
 
 .formulario_registro_contenedor{ /*Parametros para el contenedor del formulario*/
     height: 660px;
-    width: 500px;
+    width: var(--ancho_formulario);
     background-color: var(--color_secundario);
     border-radius: 3px;
     display: flex;
@@ -106,11 +112,11 @@
     gap: 35px;
 }
 
-/*==================== Formulario de registro de recuperacion de contraseña =============================*/
+/*==================== Formulario de recuperacion de contraseña =============================*/
 
 .formulario_recuperacion_contenedor{ /*Parametros para el contenedor del formulario*/
     height: 340px;
-    width: 500px;
+    width: var(--ancho_formulario);
     background-color: var(--color_secundario);
     border-radius: 3px;
     display: flex;
@@ -123,7 +129,45 @@
 
 .formulario_navegacion-alinear_botones{ /*Aplicamos parametros al contenedor de navegacion*/
     display: flex;
-    width: 400px;
+    width: 370px;
     align-items: center;
     justify-content: space-between;
+}
+
+/*==================== Formulario de codigo de verificacion =============================*/
+
+.formulario_codigo_contenedor{ /*Parametros para el contenedor del formulario*/
+    height: 420px;
+    width: var(--ancho_formulario);
+    background-color: var(--color_secundario);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 0 25px;
+}
+
+.formulario_codigo-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.formulario_mensaje{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    font-size: var(--tamaño_fuente);
+}
+
+.formulario_texto{
+    width: 230px;
+    margin-bottom: 15px;
 }

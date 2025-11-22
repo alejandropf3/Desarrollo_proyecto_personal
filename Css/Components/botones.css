@@ -13,7 +13,7 @@
     color: var(--color_secundario);
     /*Tipo de fuente y grosor*/
     font-family: var(--fuente_principal);
-    font-weight:normal;
+    font-weight:500;
     font-size: var(--tamaño_fuente_boton);
     border-radius: 8px; /*Radio del borde*/
     /*Alineamos los elementos*/

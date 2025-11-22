@@ -20,14 +20,16 @@
 
         --color_texto-oscuro: #191919;
         --fuente_principal: 'Poppins', sans-serif;
-        --tamaño_fuente_campos: 19px;
+        --tamaño_fuente:17px;
+        --tamaño_fuente_campos: 17px;
         --tamaño_fuente_boton: 20px;
-        --tamaño_fuente_titulo-formulario: 20px;
+        --tamaño_fuente_titulo-formulario: 18px;
 
     /* Variables de tamaño*/
         --alto_header: 100px;
         --alto_footer: 100px;
         --alto_main: calc(100vh - (var(--alto_footer) + var(--alto_header))); 
+        --ancho_formulario: 480px;
 
     /* Variables del logo*/
         --color_logo:#ffffff;
