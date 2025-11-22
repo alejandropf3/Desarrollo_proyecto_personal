@@ -1,0 +1,6 @@
+/* Archivo que contendra todos los elementos visuales del inicio de sesion */
+@import url(../Utils/Global.css); /* Importamos el archivo Global.css que contiene los elementos globales del proyecto*/
+@import url(../Utils/Layout.css);
+@import url(../Components/dieño_footer.css);
+@import url(../Components/formularios.css);
+@import url(../Components/botones.css);
