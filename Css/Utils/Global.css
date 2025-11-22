@@ -22,6 +22,7 @@
         --fuente_principal: 'Poppins', sans-serif;
         --tamaño_fuente_campos: 19px;
         --tamaño_fuente_boton: 20px;
+        --tamaño_fuente_titulo-formulario: 20px;
 
     /* Variables de tamaño*/
         --alto_header: 100px;
@@ -33,10 +34,12 @@
         --fuente_logo: 'Poppins', sans-serif;
         --tamaño_logo-grande:50px;
         --grosor_logo:lighter;
+
+    
 }
 
 body{
-    background: linear-gradient(#002349 30%, #003977);
-    /* background-color: var(--color_principal); */
+    /*background: linear-gradient(#002349 30%, #003977);*/
+    background-color: var(--color_principal);
     font-family: var(--fuente_principal);
 }

@@ -1,5 +1,5 @@
 
-/*=================== Elementos de formulario libre ========================*/
+/*=================== Elementos de formulario libre uso ========================*/
 
 .logotipo_formularios{ /*Aplicamos estilos al logo de la aplicacion*/
     color: var(--color_logo);
@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
     color: var(--color_terceario);
-    font-size: 25px;
+    font-size: var(--tamaño_fuente_titulo-formulario);
     font-family: var(--fuente_principal);
 }
 
@@ -35,7 +35,7 @@
     width: 400px;
     background-color: var(--color_capos_formulario);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     border-style: solid;
     border-color: var(--color_borde_formulario);
     font-size: var(--tamaño_fuente_campos);
@@ -46,13 +46,22 @@
     color: var(--color_terceario);
 }
 
+.formulario_navegacion{ /*Aplicamos parametros al contenedor de navegacion*/
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
 /*==================== Formulario de inicio de sesion =============================*/
 
 .formulario_inicio_contenedor{ /*Parametros para el contenedor del formulario*/
     height: 480px;
     width: 500px;
     background-color: var(--color_secundario);
-    border-radius: 20px;
+    border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,15 +75,6 @@
     flex-direction: column;
     gap: 30px;
     margin-top: 0 20px;
-}
-
-.formulario_inicio_navegacion{ /*Aplicamos parametros al contenedor de navegacion*/
-    display: flex;
-    width: 100%;
-    height: 100px;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-around;
 }
 
 .link_formulario_inicio-registro{ /*Aplicamos estilos al link del formulario*/
@@ -91,7 +91,7 @@
     height: 660px;
     width: 500px;
     background-color: var(--color_secundario);
-    border-radius: 20px;
+    border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,4 +104,26 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
+}
+
+/*==================== Formulario de registro de recuperacion de contraseña =============================*/
+
+.formulario_recuperacion_contenedor{ /*Parametros para el contenedor del formulario*/
+    height: 340px;
+    width: 500px;
+    background-color: var(--color_secundario);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 0 25px;
+}
+
+.formulario_navegacion-alinear_botones{ /*Aplicamos parametros al contenedor de navegacion*/
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-between;
 }
