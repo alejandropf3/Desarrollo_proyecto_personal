@@ -64,7 +64,7 @@
 /*==================== Formulario de inicio de sesion =============================*/
 
 .formulario_inicio_contenedor{ /*Parametros para el contenedor del formulario*/
-    height: 480px;
+    height: 420px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
     border-radius: 3px;
@@ -170,4 +170,28 @@
 .formulario_texto{
     width: 230px;
     margin-bottom: 15px;
+}
+
+
+
+/*==================== Formulario de codigo de cambio de contraseña =============================*/
+
+.formulario_cambio_contraseña_contenedor{ /*Parametros para el contenedor del formulario*/
+    height: 370px;
+    width: var(--ancho_formulario);
+    background-color: var(--color_secundario);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 0 25px;
+}
+
+.formulario_cambio_contraseña-form{ /*Parametros del formulario*/
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 0 20px;
 }
