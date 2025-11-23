@@ -24,18 +24,21 @@
         --tamaño_fuente_campos: 17px;
         --tamaño_fuente_boton: 20px;
         --tamaño_fuente_titulo-formulario: 18px;
+        --tamaño_fuente-links:19px;
 
     /* Variables de tamaño*/
         --alto_header: 100px;
         --alto_footer: 100px;
         --alto_main: calc(100vh - (var(--alto_footer) + var(--alto_header))); 
         --ancho_formulario: 480px;
+        --tamaño_icono:50px;
 
     /* Variables del logo*/
         --color_logo:#ffffff;
         --fuente_logo: 'Poppins', sans-serif;
         --tamaño_logo-grande:50px;
-        --grosor_logo:lighter;
+        --tamaño_logo-pequeño: 30px;
+        --grosor_logo:300;
 
     
 }
