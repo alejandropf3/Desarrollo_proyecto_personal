@@ -1,0 +1,45 @@
+
+/*============= Componentes del header ================*/
+
+.encabezado{ /* Contenedor del contenido del encabezado*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color_secundario);
+}
+
+.encabezado_navegacion{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.encabezado_logo{
+    font-weight: var(--grosor_logo);
+    font-size: var(--tamaño_logo-pequeño);
+}
+
+.encabezado_icono{ /* Contenedor del icono */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color_secundario);
+    background-color: var(--color_principal);
+    width: var(--tamaño_icono);
+    height: var(--tamaño_icono);
+    border-radius: 50%;
+}
+
+.link_header{
+    color: var(  --color_texto-oscuro);
+    font-size: var(--tamaño_fuente-links);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.link_header:hover{
+    color: var(--color_terceario);
+}
