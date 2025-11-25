@@ -1,8 +1,9 @@
 /* Archivo que contendra todos los elementos visuales */
-@import url(../Utils/Global.css); /* Importamos el archivo Global.css que contiene los elementos globales del proyecto*/
-@import url(../Utils/Layout.css);
-@import url(../Components/formularios.css);
-@import url(../Components/botones.css);
-@import url(../Components/dieño_footer.css);
-@import url(../Components/diseño_header.css);
+@import url(/Css/Utils/Global.css); /* Importamos el archivo Global.css que contiene los elementos globales del proyecto*/
+@import url(/Css/Utils/Layout.css); /* Importamos el archivo que contiene la configuaracion del layout*/
+@import url(/Css/Components/botones.css);
+@import url(/Css/Components/formularios.css);
+@import url(/Css/Components/dieño_footer.css);
+@import url(/Css/Components/diseño_header.css);
+
 
