@@ -1,0 +1,8 @@
+/* Componenete de titulo para los menus*/
+.titulo_menu{
+
+    color: var(--color_secundario);
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
