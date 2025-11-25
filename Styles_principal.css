@@ -5,5 +5,6 @@
 @import url(Css/Components/formularios.css);
 @import url(Css/Components/dieño_footer.css);
 @import url(Css/Components/diseño_header.css);
-
+@import url(Css/Utils/Layout-menu.css); /* Importamos el archivo que contiene la configuaracion del layout del menu principal*/
+@import url(Css/Components/titulo_menus.css); /* Importamos el componente de titulos para los menus*/
 
