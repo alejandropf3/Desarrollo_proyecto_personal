@@ -47,4 +47,19 @@
     text-decoration: none; /*Eliminamos la decoracion al texto*/
 }
 
+.boton_realizar_registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    background-color: var(--color_secundario);
+    height: 100%;
+    width: 100%;
+    grid-row: 2/3;
+
+    color: var(--color_texto-oscuro);
+    font-size: 25px;
+    font-weight: 100;
+    text-decoration: none;
+    border-radius: 3px;
+}
