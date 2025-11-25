@@ -1,6 +1,0 @@
-/* Archivo que contendra todos los elementos visuales del formulario de cambio de contraseñá */
-@import url(../Utils/Global.css); /* Importamos el archivo Global.css que contiene los elementos globales del proyecto*/
-@import url(../Utils/Layout.css);
-@import url(../Components/formularios.css);
-@import url(../Components/botones.css);
-@import url(../Components/dieño_footer.css);
