@@ -27,12 +27,11 @@
         --tamaño_fuente-links:19px;
 
     /* Variables de tamaño*/
-        --alto_header: 100px;
-        --alto_footer: 100px;
+        --alto_header: 10vh;
+        --alto_footer: 10vh;
         --alto_main: calc(100vh - (var(--alto_footer) + var(--alto_header))); 
         --ancho_formulario: 480px;
         --tamaño_icono:50px;
-
     /* Variables del logo*/
         --color_logo:#ffffff;
         --fuente_logo: 'Poppins', sans-serif;
