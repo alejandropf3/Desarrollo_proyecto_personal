@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Styles_principal.css">
+</head>
+<body>
+    
+
+    <!-- Seccion de header -->
+    <header class="main-header">
+        <div class="encabezado">
+            <h1 class="encabezado_logo">ECONOMIC</h1>
+
+            <nav class="encabezado_navegacion">
+                <a href="/Public/menu_principal.html" class="link_header">Inicio</a>
+                <a href="/Public/configuracion_usuario.html" class="link_header">Opciones</a>
+
+                <div class="encabezado_icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/></svg>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seccion main -->
+    <main class="main-menu">
+        <section class="main-menu__Layout-general">
+            <div class="Layout-menu__informacion">
+                <h2 class="Layout-menu__informacion__titulo">Configuracion de usuario</h2>
+            </div>
+                
+            <div class="main-menu__contenedor-izquierda">
+                <form action="" method="get" class="contenedor-izquierda__formulario">
+
+                    <div class="formulario__campos-usuario">
+                        <label for="nombre_usuario" class="campos-usuario__label">Nombre</label>
+                        <input type="text" id="nombre_usuario" class="campos-usuario__input" placeholder="Nombre de usuario">
+                    </div>
+
+                    <div class="formulario__campos-usuario">
+                        <label for="contraseña_usuario" class="campos-usuario__label">Contraseña</label>
+                        <input type="text" id="contraseña_usuario" class="campos-usuario__input" placeholder="Contra123">
+                    </div>
+
+                    <div class="formulario__campos-usuario">
+                        <label for="correo_usuario" class="campos-usuario__label">Correo electronico</label>
+                        <input type="email" id="correo_usuario" class="campos-usuario__input" placeholder="Cor****@gmail.com">
+                    </div>
+                    
+                    <div class="formulario__campos-usuario">
+                        <label for="respado_correo_usuario" class="campos-usuario__label">Respaldo correo electronico</label>
+                        <input type="email" id="respado_correo_usuario" class="campos-usuario__input" placeholder="Res****@gmail.com">
+                    </div>
+
+                    <div class="formulario__campos-usuario">
+                        <label for="dinero_diponible" class="campos-usuario__label">Dinero disponible</label>
+                        <input type="number" id="dinero_diponible" class="campos-usuario__input" placeholder="$0.00">
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="main-menu__contenedor-derecha">
+
+                <form action="" method="get" class="contenedor-derecha__formulario">
+                    
+                    <div class="">
+
+                    </div>
+
+                    <div class="">
+                        <label for="foto_usuario" class="">Cambiar foto</label>
+                        <input type="file" class="" id="foto_usuario">
+                    </div>
+                    
+                </form>
+
+            </div>
+            
+        </section>
+    </main>
+
+</body>
+</html>
