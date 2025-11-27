@@ -53,7 +53,7 @@
   display: none; /*Sacamos del flujo el input para ocultar el texto extra*/
 }
 
-.formulario_icono{
+.formulario-icono{
   display: flex;
   justify-content: center;
   align-items: center;

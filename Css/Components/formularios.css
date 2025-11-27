@@ -41,7 +41,7 @@
     width: 370px;
     background-color: var(--color_capos_formulario);
     padding: 10px;
-    border-radius: var(--radio_bode-contenedores);
+    border-radius: var(--radio_borde-contenedores);
     border-style: solid;
     border-color: var(--color_borde_formulario);
     font-size: var(--tamaño_fuente_campos);
@@ -67,7 +67,7 @@
     height: 420px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
-    border-radius: var(--radio_bode-contenedores);
+    border-radius: var(--radio_borde-contenedores);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@
     height: 650px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
-    border-radius: var(--radio_bode-contenedores);
+    border-radius: var(--radio_borde-contenedores);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,7 +117,7 @@
     height: 340px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
-    border-radius: var(--radio_bode-contenedores);
+    border-radius: var(--radio_borde-contenedores);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,7 +146,7 @@
     height: 420px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
-    border-radius: var(--radio_bode-contenedores);
+    border-radius: var(--radio_borde-contenedores);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,7 +185,7 @@
     height: 370px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
-    border-radius: var(--radio_bode-contenedores);
+    border-radius: var(--radio_borde-contenedores);
     display: flex;
     flex-direction: column;
     align-items: center;
