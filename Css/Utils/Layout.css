@@ -11,21 +11,21 @@ body{ /*Creamos la estructura grid para las paginas*/
     min-height: 100vh; /*Definimos el alto minimo*/
 }
 
-.main_header{
+.main-header{
     grid-area: header;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.main_menu{
+.main-menu{
     grid-area: main;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main_footer{
+.main-footer{
     grid-area: footer;
 }
 
