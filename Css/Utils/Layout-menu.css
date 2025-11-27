@@ -1,11 +1,11 @@
 /* ============= Creamos la grid del menu principal =============*/
 
-.Layout_menu{
+.main-menu__Layout-menu{
     height: 100%;
     width: 100%;
 
     display: grid;
     grid-template-rows: 0.1fr 1fr;
-    grid-template-columns: 0.6fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
     padding: 0px 35px;
 }
