@@ -1,4 +1,14 @@
-/* ============= Creamos la grid del menu principal =============*/
+/* ============= Creamos la grid para los menus =============*/
+
+.main-menu__Layout-general{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 35px;
+}
 
 .main-menu__Layout-menu{
     height: 100%;

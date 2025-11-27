@@ -8,3 +8,5 @@
 @import url(Css/Utils/Layout-menu.css); /* Importamos el archivo que contiene la configuaracion del layout del menu principal*/
 @import url(Css/Components/titulo_menus.css); /* Importamos el componente de titulos para los menus*/
 @import url(Css/Pages/Style_menu-principal.css);
+@import url(Css/Components/contenedor.css);
+@import url(Css/Pages/Style_configuracion-usuario.css);
