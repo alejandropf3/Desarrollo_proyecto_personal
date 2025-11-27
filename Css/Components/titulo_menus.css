@@ -1,8 +1,18 @@
 /* Componenete de titulo para los menus*/
-.titulo_menu{
 
+.menu_informacion{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.menu_informacion-texto{
+    color: var(--color_secundario);
+    font-size: 25px;
+}
+
+.menu_informacion-titulo{
     color: var(--color_secundario);
     font-size: 30px;
     font-weight: 500;
-    margin-top: 20px;
 }
