@@ -16,6 +16,8 @@
         --color_capos_formulario: #EDEDED;
         --colo_capos_formulario-oscuro:#001328;
         --color_borde_formulario: rgba(0, 0, 0, 0.25);
+        --color_ingresos: #258D19;
+        --color_egresos: #C20000;
 
     /* Variables de letras (textos)*/
 
@@ -25,7 +27,8 @@
         --tamaño_fuente_campos: 17px;
         --tamaño_fuente_boton: 20px;
         --tamaño_fuente_titulo-formulario: 18px;
-        --tamaño_fuente-links:19px;
+        --tamaño_fuente-links: 19px;
+        --tamaño_fuente-movimientos: 22px;
 
     /* Variables de tamaño*/
         --alto_header: 10vh;
