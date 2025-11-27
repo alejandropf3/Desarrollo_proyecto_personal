@@ -25,15 +25,6 @@
     border-radius: var(--radio_borde-contenedores);
 }
 
-.contenedor__resumenes{ /*parametros para el contenedor de resumenes*/
-    height: 60%;
-    width: 100%;
-    background-color: var(--color_secundario);
-    grid-row: 2;
-    grid-column: 2/3;
-    border-radius: var(--radio_borde-contenedores);
-}
-
 .historial__ingresos{ 
   display: flex;
   align-items: center;
@@ -54,4 +45,29 @@
 .egresos-textos{ /*parametros para los textos de egresos*/
   color: var(--color_egresos);
   font-size: var(--tamaño_fuente-movimientos);
+}
+
+.historial__titulo{
+  font-weight: var(--grosor_titulo);
+  font-size: 28px;
+}
+
+/* ===================== Seccion de resumenes =======================*/
+
+.contenedor__resumenes{ /*parametros para el contenedor de resumenes*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  height: 60%;
+  width: 100%;
+  background-color: var(--color_secundario);
+  grid-row: 2;
+  grid-column: 2/3;
+  border-radius: var(--radio_borde-contenedores);
+}
+
+.resumenes__titulo{
+  font-weight: var(--grosor_titulo);
+  font-size: 28px
 }

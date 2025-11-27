@@ -29,6 +29,7 @@
         --tamaño_fuente_titulo-formulario: 18px;
         --tamaño_fuente-links: 19px;
         --tamaño_fuente-movimientos: 22px;
+        --grosor_titulo: 100;
 
     /* Variables de tamaño*/
         --alto_header: 10vh;
@@ -42,7 +43,6 @@
         --tamaño_logo-grande:50px;
         --tamaño_logo-pequeño: 40px;
         --grosor_logo:300;
-
     /*Variables de bordes*/
 
         --radio_borde-contenedores: 3px;
