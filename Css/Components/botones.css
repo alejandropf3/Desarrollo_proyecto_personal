@@ -22,13 +22,13 @@
     padding: 10px;
     text-decoration: none; /*Eliminamos la decoracion al texto*/
     cursor: pointer;
-    border: 0px;
+    border:  1px solid transparent;
 }
 
 
 /*Componentes de boton de salida*/
 
-.boton-salir{
+.boton--salir{
 
     /*Dimenciones y tipo de display*/
     display: flex;
@@ -48,7 +48,7 @@
     padding: 10px;
     text-decoration: none; /*Eliminamos la decoracion al texto*/
     cursor: pointer;
-    border: 0px;
+    border: 1px solid transparent;
 }
 
 .boton-realizar-registro{
