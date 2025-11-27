@@ -18,7 +18,7 @@
 .campos-usuario__label{
     font-size: var(--tamaño_fuente_campos);
     color: var(--color_secundario);
-    font-size: 22px
+    font-size: 25px
 }
 
 .campos-usuario__input{
@@ -34,3 +34,32 @@
     color: var(--color_secundario);
 }
 
+.contenedor-derecha__formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.campo-imagen__label{
+  color: var(--color_secundario);
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.campo-imagen__input{
+  display: none; /*Sacamos del flujo el input para ocultar el texto extra*/
+}
+
+.formulario_icono{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: var(--color_secundario);
+  color: var(--color_principal);
+}
