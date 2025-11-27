@@ -51,20 +51,23 @@
     border: 0px;
 }
 
-.boton_realizar_registro{
+.boton-realizar-registro{
+    /*Tipo de display y alineamiento de elementos*/
     display: flex;
     justify-content: center;
     align-items: center;
-
+    /*Corlor de fondo y tamaño*/
     background-color: var(--color_secundario);
     height: 100%;
     width: 100%;
+    /*Posicion en la grid*/
     grid-row: 2/3;
-
+    /*Color y tamaño de fuente*/
     color: var(--color_texto-oscuro);
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 100;
     text-decoration: none;
+    /*Radio del borde y interaccion con el cursor*/
     border-radius: 3px;
     cursor: pointer;
 }
