@@ -87,14 +87,13 @@
     color: var(--color_terceario);
     text-decoration: none;
     align-self: flex-start;
-    margin-left: 40px;
 }
 
 
 /*==================== Formulario de registro de usuario =============================*/
 
 .formulario_registro_contenedor{ /*Parametros para el contenedor del formulario*/
-    height: 660px;
+    height: 650px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
     border-radius: 3px;
@@ -123,8 +122,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 10px;
     padding: 0 25px;
+}
+
+.formulario_recuperacion-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .formulario_navegacion-alinear_botones{ /*Aplicamos parametros al contenedor de navegacion*/
@@ -145,7 +151,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 10px;
     padding: 0 25px;
 }
 
@@ -154,7 +159,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 7px;
+    gap: 10px;
 }
 
 .formulario_mensaje{
@@ -185,13 +190,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 10px;
     padding: 0 25px;
 }
 
 .formulario_cambio_contraseña-form{ /*Parametros del formulario*/
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
     margin-top: 0 20px;
 }
