@@ -39,7 +39,9 @@
         --tamaño_logo-pequeño: 40px;
         --grosor_logo:300;
 
-    
+    /*Variables de bordes*/
+
+        --radio_borde-contenedores: 3px;
 }
 
 body{
