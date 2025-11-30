@@ -71,3 +71,12 @@
   font-weight: var(--grosor_titulo);
   font-size: 28px
 }
+
+.resumenes__elementos{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+}
