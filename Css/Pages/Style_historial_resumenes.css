@@ -1,0 +1,21 @@
+/* Hoja de estilos del historial de resumenes */
+
+.Layout-menu__contenedor-historial{
+    background-color: var(--color_secundario);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: var(--radio_borde-contenedores);
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.Layout-menu__contenedor-vista-previa{
+    background-color: var(--color_secundario);
+    height: 100%;
+    width: 70%;
+    padding: 20px;
+    border-radius: var(--radio_borde-contenedores);
+    grid-row: 2;
+    grid-column: 2;
+}
