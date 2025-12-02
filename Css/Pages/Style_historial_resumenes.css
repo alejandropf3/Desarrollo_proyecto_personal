@@ -44,7 +44,7 @@
 .Layout-menu__contenedor-vista-previa{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
     background-color: var(--color_secundario);
     height: 100%;
@@ -68,7 +68,6 @@
 .contenedor-vista-previa__titulo{
     color: var(--color_texto-oscuro);
     font-size: var(--tamaño_fuente_titulo-formulario);
-    font-weight: var(--grosor_titulo);
 }
 
 .vista-previa_encabezado_texto{
@@ -80,12 +79,20 @@
     width: 100%;
     height: 70%;
     border-bottom: 1px #AEAEAE solid;
+    text-align: center;
 }
 
 .transacciones-table__egreso{
     color: var(--color_egresos);
+    font-size: var(--tamaño_fuente);
 }
 
 .transacciones-table__ingreso{
     color: var(--color_ingresos);
+    font-size: var(--tamaño_fuente);
+}
+
+.contenido-total-semanal__titulo{
+    font-size: var(--tamaño_fuente_titulo-formulario);
+    font-weight: var(--grosor_titulo);
 }
