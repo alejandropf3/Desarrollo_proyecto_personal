@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 40px;
 }
 
 .encabezado_texto{
@@ -41,7 +41,7 @@
 
 /*======================= SECCION DE ELEMENTOS DE VISTA PREVIA =============================*/
 
-.Layout-menu__contenedor-vista-previa{
+.Layout-menu__contenedor-vista-previa{ /*Contenedor principal*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -55,7 +55,7 @@
     grid-column: 3;
 }
 
-.contenedor-vista-previa_encabezado{
+.contenedor-vista-previa_encabezado{ 
     height: 50px;
     width: 100%;
     border-top: 1px #AEAEAE solid;
@@ -75,24 +75,24 @@
     color: var(--color_texto-oscuro);
 }
 
-.contenido__transacciones-table{
+.contenido__transacciones-table{ /*Contenedor de la tabla*/
     width: 100%;
     height: 70%;
     border-bottom: 1px #AEAEAE solid;
     text-align: center;
 }
 
-.transacciones-table__egreso{
+.transacciones-table__egreso{ /*Estilos para los egresos en la vista previa*/
     color: var(--color_egresos);
-    font-size: var(--tamaño_fuente);
+    font-size: var(--tamaño_fuente-movimientos);
 }
 
-.transacciones-table__ingreso{
+.transacciones-table__ingreso{ /*Estilos para los ingresos en la vista previa*/
     color: var(--color_ingresos);
-    font-size: var(--tamaño_fuente);
+    font-size: var(--tamaño_fuente-movimientos);
 }
 
-.contenido-total-semanal__titulo{
+.contenido-total-semanal__titulo{ 
     font-size: var(--tamaño_fuente_titulo-formulario);
     font-weight: var(--grosor_titulo);
 }
