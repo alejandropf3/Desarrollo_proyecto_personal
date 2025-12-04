@@ -170,11 +170,13 @@
     text-align: center;
     gap: 10px;
     font-size: var(--tamaño_fuente);
+    color: var(--color_texto-oscuro);
 }
 
 .formulario_texto{
     width: 230px;
     margin-bottom: 15px;
+    color: var(--color_texto-oscuro);
 }
 
 

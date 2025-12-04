@@ -29,6 +29,10 @@
     color: var(--color_texto-oscuro);
 }
 
+.contenido__transacciones-table{
+    color: var(--color_texto-oscuro);
+}
+
 .contenedor-historial__alinear{
     height: 90%;
     width: 100%;
@@ -112,5 +116,6 @@
 
 .contenido-total-semanal__titulo{ 
     font-size: var(--tamaño_fuente_titulo);
+    color: var(--color_texto-oscuro);
     font-weight: var(--grosor_titulo);
 }
