@@ -34,6 +34,10 @@
     border-radius: 50%;
 }
 
+.encabezado_icono:focus{
+    background-color: var(--color_terceario);
+}
+
 .link_header{
     color: var(  --color_texto-oscuro);
     font-size: var(--tamaño_fuente-links);

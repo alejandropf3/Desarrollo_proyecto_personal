@@ -1,0 +1,74 @@
+/* Hoja de estilos para las ventanas emergentes */
+
+.ventana-salida{
+    /*Desabilitamos la visibilidad por defecto*/
+    visibility: hidden;
+    opacity: 0;
+
+    /*Posicionamos el contenido*/
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 99999;
+}
+
+#ventana-salida-confirmar:target{
+    visibility: visible; /* Habilitamos la visualizacion*/
+    opacity: 1;
+}
+
+.ventana-salida__contenido{
+
+    /*Aplicamos display y alineamos los elementos*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+
+    /*Aplicamos tamaño*/
+    height: 170px;
+    width: 230px;
+    padding: 10px;
+    /*Aplicamos colores, sombra y radio*/
+    background-color: var(--color_secundario);
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid rgba(0, 0, 0, 30%);
+    border-radius: var(--radio_borde-contenedores);
+
+    /*Aplicamos una animacion opcional al aparecer*/
+    transform: scale(0.9);
+    transition: transform 0.3s ease-out;
+}
+
+.ventana-salida__contenido__informacion{
+    color: var(--color_texto-oscuro);
+    font-size: var(--tamaño_fuente);
+    padding: 10px 0px;
+    border-top: 1px solid var(--color_linea_divisora);
+    border-bottom: 1px solid var(--color_linea_divisora);
+}
+
+.ventana-salida__contenido__link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+}
+
+.ventana-salida__contenido__link p{
+    color: var(--color_texto-oscuro);
+    font-size: var(--tamaño_fuente);
+    font-weight: 700;
+}
+
+.ventana-salida__contenido__link i{
+    color: var(--color_texto-oscuro);
+    font-size: var(--tamaño_fuente);
+}
+
+.ventana-salida__contenido__icono{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
