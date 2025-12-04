@@ -18,7 +18,7 @@
 
 .tabla__encabezado th{
     border-bottom: 1px solid var(--color_linea_divisora);
-    font-size: var(--tamaño_fuente_titulo-formulario);
+    font-size: var(--tamaño_fuente_titulo);
     margin: 20px;
 }
 
