@@ -50,6 +50,6 @@
 
 body{
     background: linear-gradient(#002349 30%, #003977);
-    /* background-color: var(--color_principal); */
+    /* background-color: var(--color_principal); */ /*Color de fondo de reserva en caso de que el gradiente no funcione*/
     font-family: var(--fuente_principal);
 }
