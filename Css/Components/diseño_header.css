@@ -30,6 +30,7 @@
     background-color: var(--color_principal);
     width: var(--tamaño_icono);
     height: var(--tamaño_icono);
+    font-size: 30px;
     border-radius: 50%;
 }
 
