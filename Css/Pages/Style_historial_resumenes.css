@@ -39,6 +39,24 @@
     gap: 10px;
 }
 
+.encabezado__selector{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.encabezado__selector-seleccion{
+    appearance: none;
+    outline: none;
+    border: transparent solid 1px;
+    font-size: var(--tamaño_fuente);
+    color: var(--color_texto-oscuro);
+}
+
+.encabezado__selector-seleccion:hover{
+    color: var(--color_terceario);
+}
+
 /*======================= SECCION DE ELEMENTOS DE VISTA PREVIA =============================*/
 
 .Layout-menu__contenedor-vista-previa{ /*Contenedor principal*/
