@@ -67,7 +67,7 @@
 
 .contenedor-vista-previa__titulo{
     color: var(--color_texto-oscuro);
-    font-size: var(--tamaño_fuente_titulo-formulario);
+    font-size: var(--tamaño_fuente_titulo);
 }
 
 .vista-previa_encabezado_texto{
@@ -84,15 +84,15 @@
 
 .transacciones-table__egreso{ /*Estilos para los egresos en la vista previa*/
     color: var(--color_egresos);
-    font-size: var(--tamaño_fuente-movimientos);
+    font-size: var(--tamaño_fuente);
 }
 
 .transacciones-table__ingreso{ /*Estilos para los ingresos en la vista previa*/
     color: var(--color_ingresos);
-    font-size: var(--tamaño_fuente-movimientos);
+    font-size: var(--tamaño_fuente);
 }
 
 .contenido-total-semanal__titulo{ 
-    font-size: var(--tamaño_fuente_titulo-formulario);
+    font-size: var(--tamaño_fuente_titulo);
     font-weight: var(--grosor_titulo);
 }

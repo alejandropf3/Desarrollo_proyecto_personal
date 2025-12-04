@@ -16,7 +16,7 @@
 }
 
 .campos-usuario__label{
-    font-size: var(--tamaño_fuente_campos);
+    font-size: var(--tamaño_fuente);
     color: var(--color_secundario);
     font-size: 25px
 }
@@ -29,7 +29,7 @@
     border-radius: var(--radio_bode-contenedores);
     border-style: solid;
     border-color: var(--color_borde_formulario);
-    font-size: var(--tamaño_fuente_campos);
+    font-size: var(--tamaño_fuente);
     outline: none;
     color: var(--color_secundario);
 }

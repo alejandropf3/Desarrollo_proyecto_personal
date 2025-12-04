@@ -33,7 +33,7 @@
 
 .ingresos-textos{ /*parametros para los textos de ingresos*/
   color: var(--color_ingresos);
-  font-size: var(--tamaño_fuente-movimientos);
+  font-size: var(--tamaño_fuente);
 }
 
 .historial__egresos{ 
@@ -44,7 +44,7 @@
 
 .egresos-textos{ /*parametros para los textos de egresos*/
   color: var(--color_egresos);
-  font-size: var(--tamaño_fuente-movimientos);
+  font-size: var(--tamaño_fuente);
 }
 
 .historial__titulo{

@@ -26,12 +26,12 @@
     flex-direction: column;
     align-items: center;
     color: var(--color_terceario);
-    font-size: var(--tamaño_fuente_titulo-formulario);
+    font-size: var(--tamaño_fuente_titulo);
     font-family: var(--fuente_principal);
 }
 
 .formulario_label{
-    font-size: var(--tamaño_fuente_campos);
+    font-size: var(--tamaño_fuente);
     color: var(--color_texto-oscuro);
     font-weight: 700;
 }
@@ -44,7 +44,7 @@
     border-radius: var(--radio_borde-contenedores);
     border-style: solid;
     border-color: var(--color_borde_formulario);
-    font-size: var(--tamaño_fuente_campos);
+    font-size: var(--tamaño_fuente);
     outline: none;
 }
 
