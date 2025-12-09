@@ -202,3 +202,53 @@
     gap: 30px;
     margin-top: 0 20px;
 }
+
+/*==================== Formulario de registro de transaccion =============================*/
+
+.formulario__input_registro{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: var(--color_capos_formulario);
+    border-radius: var(--radio_borde-contenedores);
+    border-style: solid;
+    border-color: var(--color_borde_formulario);
+    font-size: var(--tamaño_fuente);
+    outline: none;
+}
+
+.seccion__caja-eleccion{
+    width: 45%;
+    height: 70px;
+    padding: 10px;
+    background-color: var(--color_capos_formulario);
+    border-radius: var(--radio_borde-contenedores);
+    border-style: solid;
+    border-color: var(--color_borde_formulario);
+    font-size: var(--tamaño_fuente);
+    outline: none;
+}
+
+.seccion__input_registro{
+    width: 45%;
+    height: 70px;
+    padding: 10px;
+    background-color: var(--color_capos_formulario);
+    border-radius: var(--radio_borde-contenedores);
+    border-style: solid;
+    border-color: var(--color_borde_formulario);
+    font-size: var(--tamaño_fuente);
+    outline: none;
+}
+
+.formulario__caja-texto{
+    width: 100%;
+    height: 30%;
+    padding: 10px;
+    background-color: var(--color_capos_formulario);
+    border-radius: var(--radio_borde-contenedores);
+    border-style: solid;
+    border-color: var(--color_borde_formulario);
+    font-size: var(--tamaño_fuente);
+    outline: none;
+}
