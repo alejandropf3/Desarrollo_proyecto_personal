@@ -1,26 +1,28 @@
-
 /*=================== Elementos de formulario libre uso ========================*/
 
-.logotipo_formularios{ /*Aplicamos estilos al logo de la aplicacion*/
+.logotipo {
+    /*Aplicamos estilos al logo de la aplicacion*/
     color: var(--color_logo);
     font-family: var(--fuente_logo);
     font-weight: var(--grosor_logo);
     font-size: var(--tamaño_logo-grande);
 }
 
-.linea{ /*Le aplicamos estilos a la linea de separacion*/
+.linea {
+    /*Le aplicamos estilos a la linea de separacion*/
     width: 95%;
     background-color: var(--color_terceario);
     height: 3px;
 }
 
-.linea-texto{
+.linea--texto {
     width: 70%;
     background-color: var(--color_terceario);
     height: 3px;
 }
 
-.formulario_titulo{ /*Estilos para el titulo del formualrio*/
+.formulario__titulo {
+    /*Estilos para el titulo del formualrio*/
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,13 +32,14 @@
     font-family: var(--fuente_principal);
 }
 
-.formulario_label{
+.formulario__label {
     font-size: var(--tamaño_fuente);
     color: var(--color_texto-oscuro);
     font-weight: 700;
 }
 
-.formulario_input{ /*Aplicamos estilos a los imputs*/
+.formulario__input {
+    /*Aplicamos estilos a los imputs*/
     height: 50px;
     width: 370px;
     background-color: var(--color_capos_formulario);
@@ -48,22 +51,25 @@
     outline: none;
 }
 
-.link_formulario{ /*Aplicamos estilos al link del formulario*/
+.formulario__link {
+    /*Aplicamos estilos al link del formulario*/
     color: var(--color_terceario);
 }
 
-.formulario_navegacion{ /*Aplicamos parametros al contenedor de navegacion*/
+.formulario__navegacion {
+    /*Aplicamos parametros al contenedor de navegacion*/
     display: flex;
     width: 100%;
     height: 100px;
     flex-direction: column;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 /*==================== Formulario de inicio de sesion =============================*/
 
-.formulario_inicio_contenedor{ /*Parametros para el contenedor del formulario*/
+.formulario-inicio {
+    /*Parametros para el contenedor del formulario*/
     height: 420px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
@@ -76,14 +82,16 @@
     gap: 25px;
 }
 
-.formulario_inicio-formulario{ /*Parametros del formulario*/
+.formulario-inicio__form {
+    /*Parametros del formulario*/
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-top: 0 20px;
 }
 
-.link_formulario_inicio-registro{ /*Aplicamos estilos al link del formulario*/
+.formulario-inicio__link {
+    /*Aplicamos estilos al link del formulario*/
     color: var(--color_terceario);
     text-decoration: none;
     align-self: flex-start;
@@ -92,7 +100,8 @@
 
 /*==================== Formulario de registro de usuario =============================*/
 
-.formulario_registro_contenedor{ /*Parametros para el contenedor del formulario*/
+.formulario-registro {
+    /*Parametros para el contenedor del formulario*/
     height: 650px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
@@ -105,7 +114,7 @@
     padding: var(--padding_formulario);
 }
 
-.formulario_registro-form{
+.formulario-registro__form {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -113,7 +122,8 @@
 
 /*==================== Formulario de recuperacion de contraseña =============================*/
 
-.formulario_recuperacion_contenedor{ /*Parametros para el contenedor del formulario*/
+.formulario-recuperacion {
+    /*Parametros para el contenedor del formulario*/
     height: 340px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
@@ -125,7 +135,7 @@
     padding: var(--padding_formulario);
 }
 
-.formulario_recuperacion-form{
+.formulario-recuperacion__form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -133,7 +143,8 @@
     gap: 40px;
 }
 
-.formulario_navegacion-alinear_botones{ /*Aplicamos parametros al contenedor de navegacion*/
+.formulario__navegacion--alineado {
+    /*Aplicamos parametros al contenedor de navegacion*/
     display: flex;
     width: 370px;
     align-items: center;
@@ -142,7 +153,8 @@
 
 /*==================== Formulario de codigo de verificacion =============================*/
 
-.formulario_codigo_contenedor{ /*Parametros para el contenedor del formulario*/
+.formulario-codigo {
+    /*Parametros para el contenedor del formulario*/
     height: 420px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
@@ -154,7 +166,7 @@
     padding: var(--padding_formulario);
 }
 
-.formulario_codigo-form{
+.formulario-codigo__form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +174,7 @@
     gap: 10px;
 }
 
-.formulario_mensaje{
+.formulario__mensaje {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -173,7 +185,7 @@
     color: var(--color_texto-oscuro);
 }
 
-.formulario_texto{
+.formulario__texto {
     width: 230px;
     margin-bottom: 15px;
     color: var(--color_texto-oscuro);
@@ -183,7 +195,8 @@
 
 /*==================== Formulario de codigo de cambio de contraseña =============================*/
 
-.formulario_cambio_contraseña_contenedor{ /*Parametros para el contenedor del formulario*/
+.formulario-cambio-contrasena {
+    /*Parametros para el contenedor del formulario*/
     height: 370px;
     width: var(--ancho_formulario);
     background-color: var(--color_secundario);
@@ -195,7 +208,8 @@
     padding: var(--padding_formulario);
 }
 
-.formulario_cambio_contraseña-form{ /*Parametros del formulario*/
+.formulario-cambio-contrasena__form {
+    /*Parametros del formulario*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,7 +219,7 @@
 
 /*==================== Formulario de registro de transaccion =============================*/
 
-.formulario__input_registro{
+.formulario__input--registro {
     width: 100%;
     height: 70px;
     padding: 10px;
@@ -217,7 +231,7 @@
     outline: none;
 }
 
-.seccion__caja-eleccion{
+.seccion__caja-eleccion {
     width: 45%;
     height: 70px;
     padding: 10px;
@@ -229,7 +243,7 @@
     outline: none;
 }
 
-.seccion__input_registro{
+.seccion__input--registro {
     width: 45%;
     height: 70px;
     padding: 10px;
@@ -241,7 +255,7 @@
     outline: none;
 }
 
-.formulario__caja-texto{
+.formulario__caja-texto {
     width: 100%;
     height: 30%;
     padding: 10px;

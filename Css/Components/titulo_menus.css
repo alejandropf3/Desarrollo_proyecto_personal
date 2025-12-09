@@ -1,17 +1,17 @@
 /* Componenete de titulo para los menus*/
 
-.Layout-menu__informacion{
+.layout-menu__informacion {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.Layout-menu__informacion__texto{
+.layout-menu__texto {
     color: var(--color_secundario);
     font-size: 35px;
 }
 
-.Layout-menu__informacion__titulo{
+.layout-menu__titulo {
     color: var(--color_secundario);
     font-size: 35px;
     font-weight: 500;

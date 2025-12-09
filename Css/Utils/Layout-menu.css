@@ -1,6 +1,6 @@
 /* ============= Creamos la grid para los menus =============*/
 
-.main-menu__Layout-general{
+.main-menu__layout-general {
     height: 100%;
     width: 100%;
 
@@ -10,7 +10,8 @@
     padding: 0px 35px;
 }
 
-.main-menu__Layout-menu{ /*layout para el menu principal*/
+.main-menu__layout-menu {
+    /*layout para el menu principal*/
     height: 100%;
     width: 100%;
 
@@ -20,7 +21,8 @@
     padding: 0px 35px;
 }
 
-.main-menu__Layout-historial-resumenes{ /*Layout para el historial de resumenes*/
+.main-menu__layout-historial-resumenes {
+    /*Layout para el historial de resumenes*/
     height: 100%;
     width: 100%;
 
@@ -29,4 +31,3 @@
     grid-template-columns: 1fr 0.5fr 0.9fr;
     padding: 0px 35px;
 }
-

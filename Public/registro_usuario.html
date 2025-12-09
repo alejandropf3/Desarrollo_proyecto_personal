@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Styles_principal.css">
 </head>
+
 <body>
 
     <!-- Seccion header -->
     <header class="main-header">
-        <h1 class="logotipo_formularios">ECONOMIC</h1>
+        <h1 class="logotipo">ECONOMIC</h1>
     </header>
 
     <!-- Seccion main -->
-     <main class="main-menu">
-        <section class="formulario_registro_contenedor"> <!-- Contenedor del formulario -->
-            <div class="formulario_titulo">
+    <main class="main-menu">
+        <section class="formulario-registro"> <!-- Contenedor del formulario -->
+            <div class="formulario__titulo">
                 <h2>Registro de usuario</h2>
                 <hr class="linea">
             </div>
-            <form action="../Public/menu_principal.html" method="get" class="formulario_registro-form"> <!-- Formulario -->
-               
-                <input type="text" class="formulario_input" placeholder="Nombre">
+            <form action="../Public/menu_principal.html" method="get" class="formulario-registro__form">
+                <!-- Formulario -->
 
-                <input type="email" class="formulario_input" placeholder="Correo electronico">
+                <input type="text" class="formulario__input" placeholder="Nombre">
 
-                <input type="" class="formulario_input" placeholder="Contraseña">
+                <input type="email" class="formulario__input" placeholder="Correo electronico">
 
-                <input type="text" class="formulario_input" placeholder="Confirma la contraseña">
+                <input type="" class="formulario__input" placeholder="Contraseña">
 
-                <nav class="formulario_navegacion">
+                <input type="text" class="formulario__input" placeholder="Confirma la contraseña">
+
+                <nav class="formulario__navegacion">
                     <button class="boton" type="submit">Confirmar</button>
-                    <a href="../index.html" class="link_formulario">¿Ya tienes cuenta?</a>
+                    <a href="../index.html" class="formulario__link">¿Ya tienes cuenta?</a>
                 </nav>
 
             </form>
 
         </section>
-     </main>
+    </main>
 
 </body>
+
 </html>

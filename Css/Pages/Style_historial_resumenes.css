@@ -1,6 +1,7 @@
 /* Hoja de estilos del historial de resumenes */
 
-.Layout-menu__contenedor-historial{ /*Seccion de elementos del historial de resumenes*/
+.layout-menu__contenedor-historial {
+    /*Seccion de elementos del historial de resumenes*/
     background-color: var(--color_secundario);
     height: 100%;
     width: 90%;
@@ -15,7 +16,7 @@
     justify-content: space-between;
 }
 
-.contenedor-historial__encabezado{
+.contenedor-historial__encabezado {
     height: 10%;
     width: 100%;
     display: flex;
@@ -24,16 +25,16 @@
     gap: 40px;
 }
 
-.encabezado_texto{
+.contenedor-historial__encabezado-texto {
     font-size: var(--tamaño_fuente);
     color: var(--color_texto-oscuro);
 }
 
-.contenido__transacciones-table{
+.contenido__transacciones-table {
     color: var(--color_texto-oscuro);
 }
 
-.contenedor-historial__alinear{
+.contenedor-historial__alinear {
     height: 90%;
     width: 100%;
     display: flex;
@@ -43,13 +44,13 @@
     gap: 10px;
 }
 
-.encabezado__selector{
+.contenedor-historial__selector {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.encabezado__selector-seleccion{
+.contenedor-historial__selector-seleccion {
     appearance: none;
     outline: none;
     border: transparent solid 1px;
@@ -57,13 +58,14 @@
     color: var(--color_texto-oscuro);
 }
 
-.encabezado__selector-seleccion:hover{
+.contenedor-historial__selector-seleccion:hover {
     color: var(--color_terceario);
 }
 
 /*======================= SECCION DE ELEMENTOS DE VISTA PREVIA =============================*/
 
-.Layout-menu__contenedor-vista-previa{ /*Contenedor principal*/
+.layout-menu__contenedor-vista-previa {
+    /*Contenedor principal*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -77,7 +79,7 @@
     grid-column: 3;
 }
 
-.contenedor-vista-previa_encabezado{ 
+.contenedor-vista-previa__encabezado {
     height: 50px;
     width: 100%;
     border-top: 1px var(--color_linea_divisora) solid;
@@ -87,34 +89,37 @@
     justify-content: space-between;
 }
 
-.contenedor-vista-previa__titulo{
+.contenedor-vista-previa__titulo {
     color: var(--color_texto-oscuro);
     font-size: var(--tamaño_fuente_titulo);
 }
 
-.vista-previa_encabezado_texto{
+.contenedor-vista-previa__encabezado-texto {
     font-size: var(--tamaño_fuente);
     color: var(--color_texto-oscuro);
 }
 
-.contenido__transacciones-table{ /*Contenedor de la tabla*/
+.contenido__transacciones-table {
+    /*Contenedor de la tabla*/
     width: 100%;
     height: 70%;
     border-bottom: 1px var(--color_linea_divisora) solid;
     text-align: center;
 }
 
-.transacciones-table__egreso{ /*Estilos para los egresos en la vista previa*/
+.transacciones-table__egreso {
+    /*Estilos para los egresos en la vista previa*/
     color: var(--color_egresos);
     font-size: var(--tamaño_fuente);
 }
 
-.transacciones-table__ingreso{ /*Estilos para los ingresos en la vista previa*/
+.transacciones-table__ingreso {
+    /*Estilos para los ingresos en la vista previa*/
     color: var(--color_ingresos);
     font-size: var(--tamaño_fuente);
 }
 
-.contenido-total-semanal__titulo{ 
+.contenido-total-semanal__titulo {
     font-size: var(--tamaño_fuente_titulo);
     color: var(--color_texto-oscuro);
     font-weight: var(--grosor_titulo);

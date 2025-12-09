@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Styles_principal.css">
 </head>
+
 <body>
 
     <!-- Seccion de header -->
     <header class="main-header">
-        <h1 class="logotipo_formularios">ECONOMIC</h1>
+        <h1 class="logotipo">ECONOMIC</h1>
     </header>
     <!-- Seccion de contenido -->
     <main class="main-menu">
-        
-        <section class="formulario_inicio_contenedor">
-            <div class="formulario_titulo">
+
+        <section class="formulario-inicio">
+            <div class="formulario__titulo">
                 <h2>Iniciar Sesíon</h2>
                 <hr class="linea">
             </div>
-            <form action="Public/menu_principal.html" method="get" class="formulario_inicio-formulario">
-                <input type="email" class="formulario_input" placeholder="Correo electronico">
-                
-                <input type="text" class="formulario_input" placeholder="Contraseña">
+            <form action="Public/menu_principal.html" method="get" class="formulario-inicio__form">
+                <input type="email" class="formulario__input" placeholder="Correo electronico">
 
-                <a href="Public/recuperacion_contraseña.html" class="link_formulario_inicio-registro">Olvide mi contraseña</a>
-                <nav class="formulario_navegacion">
+                <input type="text" class="formulario__input" placeholder="Contraseña">
+
+                <a href="Public/recuperacion_contraseña.html" class="formulario-inicio__link">Olvide mi contraseña</a>
+                <nav class="formulario__navegacion">
                     <button class="boton" type="submit">Confirmar</button>
-                    <a href="Public/registro_usuario.html" class="link_formulario">¿Aun no tienes una cuenta?</a>
+                    <a href="Public/registro_usuario.html" class="formulario__link">¿Aun no tienes una cuenta?</a>
                 </nav>
             </form>
         </section>
@@ -38,19 +40,20 @@
     <footer class="main-footer">
         <div class="pie-pagina">
             <nav class="pie-pagina__navegacion">
-                <a href="https://github.com/alejandropf3" class="pie-pagina__link-icono"><i class="bi bi-github"></i></a>
+                <a href="https://github.com/alejandropf3" class="pie-pagina__link-icono"><i
+                        class="bi bi-github"></i></a>
                 <a href="" class="pie-pagina__link-icono"><i class="bi bi-instagram"></i></a>
-                <a href=""  class="pie-pagina__link-icono"><i class="bi bi-facebook"></i></a>
+                <a href="" class="pie-pagina__link-icono"><i class="bi bi-facebook"></i></a>
             </nav>
 
             <h2 class="pie-pagina__logo">ECONOMIC</h2>
-            
+
             <div class="pie-pagina__contacto">
-                <div class="contacto__informacion">
+                <div class="pie-pagina__contacto-informacion">
                     <i class="bi bi-envelope-fill"></i>
                     <p>alejandropefa31@gmail.com</p>
                 </div>
-                <div class="contacto__informacion">
+                <div class="pie-pagina__contacto-informacion">
                     <i class="bi bi-telephone-fill"></i>
                     <p>+57 3102317070</p>
                 </div>
@@ -60,4 +63,5 @@
 
 
 </body>
+
 </html>

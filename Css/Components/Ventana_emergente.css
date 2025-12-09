@@ -1,6 +1,6 @@
 /* Hoja de estilos para las ventanas emergentes */
 
-.ventana-salida{
+.ventana-salida {
     /*Desabilitamos la visibilidad por defecto*/
     visibility: hidden;
     opacity: 0;
@@ -12,12 +12,13 @@
     z-index: 99999;
 }
 
-#ventana-salida-confirmar:target{
-    visibility: visible; /* Habilitamos la visualizacion*/
+#ventana-salida-confirmar:target {
+    visibility: visible;
+    /* Habilitamos la visualizacion*/
     opacity: 1;
 }
 
-.ventana-salida__contenido{
+.ventana-salida__contenido {
 
     /*Aplicamos display y alineamos los elementos*/
     display: flex;
@@ -40,7 +41,7 @@
     transition: transform 0.3s ease-out;
 }
 
-.ventana-salida__contenido__informacion{
+.ventana-salida__informacion {
     color: var(--color_texto-oscuro);
     font-size: var(--tamaño_fuente);
     padding: 10px 0px;
@@ -48,27 +49,26 @@
     border-bottom: 1px solid var(--color_linea_divisora);
 }
 
-.ventana-salida__contenido__link{
+.ventana-salida__link {
     display: flex;
     align-items: center;
     text-decoration: none;
     gap: 5px;
 }
 
-.ventana-salida__contenido__link p{
+.ventana-salida__link p {
     color: var(--color_texto-oscuro);
     font-size: var(--tamaño_fuente);
     font-weight: 700;
 }
 
-.ventana-salida__contenido__link i{
+.ventana-salida__link i {
     color: var(--color_texto-oscuro);
     font-size: var(--tamaño_fuente);
 }
 
-.ventana-salida__contenido__icono{
+.ventana-salida__icono {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-

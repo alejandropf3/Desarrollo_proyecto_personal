@@ -1,7 +1,7 @@
-
 /*============= Componentes del header ================*/
 
-.encabezado{ /* Contenedor del contenido del encabezado*/
+.encabezado {
+    /* Contenedor del contenido del encabezado*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,18 +11,19 @@
     background-color: var(--color_secundario);
 }
 
-.encabezado_navegacion{
+.encabezado__navegacion {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.encabezado_logo{
+.encabezado__logo {
     font-weight: var(--grosor_logo);
     font-size: var(--tamaño_logo-pequeño);
 }
 
-.encabezado_icono{ /* Contenedor del icono */
+.encabezado__icono {
+    /* Contenedor del icono */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,17 +35,17 @@
     border-radius: 50%;
 }
 
-.encabezado_icono:focus{
+.encabezado__icono:focus {
     background-color: var(--color_terceario);
 }
 
-.link_header{
-    color: var(  --color_texto-oscuro);
+.encabezado__link {
+    color: var(--color_texto-oscuro);
     font-size: var(--tamaño_fuente-links);
     text-decoration: none;
     font-weight: 300;
 }
 
-.link_header:hover{
+.encabezado__link:hover {
     color: var(--color_terceario);
 }

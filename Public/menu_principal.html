@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Styles_principal.css">
 </head>
+
 <body>
 
     <!-- Seccion de header -->
     <header class="main-header">
         <div class="encabezado">
-            <h1 class="encabezado_logo">ECONOMIC</h1>
+            <h1 class="encabezado__logo">ECONOMIC</h1>
 
-            <nav class="encabezado_navegacion">
-                <a href="menu_principal.html" class="link_header">Inicio</a>
-                <a href="historial_transacciones.html" class="link_header">Historial de transacciones</a>
-                <a href="historial_resumenes.html" class="link_header">Historial de resúmenes</a>
-                <a href="configuracion_usuario.html" class="link_header">Opciones</a>
+            <nav class="encabezado__navegacion">
+                <a href="menu_principal.html" class="encabezado__link">Inicio</a>
+                <a href="historial_transacciones.html" class="encabezado__link">Historial de transacciones</a>
+                <a href="historial_resumenes.html" class="encabezado__link">Historial de resúmenes</a>
+                <a href="configuracion_usuario.html" class="encabezado__link">Opciones</a>
 
-                <a href="#ventana-salida-confirmar" class="encabezado_icono">
+                <a href="#ventana-salida-confirmar" class="encabezado__icono">
                     <i class="bi bi-person-fill"></i>
                 </a>
 
                 <div id="ventana-salida-confirmar" class="ventana-salida">
                     <div class="ventana-salida__contenido">
 
-                        <div class="ventana-salida__contenido__icono">
-                            <div class="encabezado_icono">
+                        <div class="ventana-salida__icono">
+                            <div class="encabezado__icono">
                                 <i class="bi bi-person-fill"></i>
                             </div>
                             <p>Nombre de usuario</p>
                         </div>
 
-                        <div class="ventana-salida__contenido__informacion">
+                        <div class="ventana-salida__informacion">
                             <p>Email</p>
                             <p>Cor****@gmail.com</p>
                         </div>
 
-                        <a href="../index.html" class="ventana-salida__contenido__link">
-                            <i class="bi bi-box-arrow-right"></i> 
+                        <a href="../index.html" class="ventana-salida__link">
+                            <i class="bi bi-box-arrow-right"></i>
                             <p>salir</p>
                         </a>
 
@@ -52,79 +54,80 @@
     <!-- Seccion de main -->
     <main class="main-menu">
 
-        <section class="main-menu__Layout-menu">
-                <div class="Layout-menu__informacion">
-                    <h2 class="Layout-menu__informacion__titulo"> Dinero actual</h2>
-                    <p class="Layout-menu__informacion__texto">$0.00</p>
-                </div>
+        <section class="main-menu__layout-menu">
+            <div class="layout-menu__informacion">
+                <h2 class="layout-menu__titulo"> Dinero actual</h2>
+                <p class="layout-menu__texto">$0.00</p>
+            </div>
 
-            <a href="realizar_registro.html" class="boton-realizar-registro">Realizar registro</a>
+            <a href="realizar_registro.html" class="boton--realizar-registro">Realizar registro</a>
 
-            <section class="Layout-menu__contenedor">
+            <section class="layout-menu__contenedor">
 
                 <div class="contenedor__historial"> <!-- Seccion de historial de transacciones -->
-                <h2 class="historial__titulo">Ultimas transacciones</h2>
+                    <h2 class="historial__titulo">Ultimas transacciones</h2>
                     <div class="historial__ingresos">
-                        <p class="ingresos-textos">Ingreso+</p>
-                        <p class="ingresos-textos">$0.00</p>
-                        <p class="ingresos-textos">Categoria</p>
-                        <p class="ingresos-textos">Descripcion</p>
+                        <p class="historial__ingresos-texto">Ingreso+</p>
+                        <p class="historial__ingresos-texto">$0.00</p>
+                        <p class="historial__ingresos-texto">Categoria</p>
+                        <p class="historial__ingresos-texto">Descripcion</p>
                     </div>
 
                     <div class="historial__egresos">
-                        <p class="egresos-textos">Egreso -</p>
-                        <p class="egresos-textos">$0.00</p>
-                        <p class="egresos-textos">Categoria</p>
-                        <p class="egresos-textos">Descripcion</p>
+                        <p class="historial__egresos-texto">Egreso -</p>
+                        <p class="historial__egresos-texto">$0.00</p>
+                        <p class="historial__egresos-texto">Categoria</p>
+                        <p class="historial__egresos-texto">Descripcion</p>
                     </div>
-                    <a href="historial_transacciones.html" class="boton-ver-mas">Ver mas</a>
+                    <a href="historial_transacciones.html" class="boton--ver-mas">Ver mas</a>
                 </div>
 
-                <div class= "contenedor__resumenes"> <!-- Seccion de historial de resumenes -->
+                <div class="contenedor__resumenes"> <!-- Seccion de historial de resumenes -->
 
                     <h2 class="resumenes__titulo">Historial de resumenes</h2>
 
                     <div class="resumenes__elementos">
 
-                        <div class="Elementos__caja-resumen">
+                        <div class="caja-resumen">
                             <h2 class="caja-resumen__titulo">Resumen semanal</h2>
                             <p class="caja-resumen__fecha">Dias 20/26</p>
                             <a href="" class="caja-resumen__link">Ver tabla</a>
                         </div>
 
-                        <div class="Elementos__caja-resumen">
+                        <div class="caja-resumen">
                             <h2 class="caja-resumen__titulo">Resumen semanal</h2>
                             <p class="caja-resumen__fecha">Dias 20/26</p>
                             <a href="" class="caja-resumen__link">Ver tabla</a>
                         </div>
 
-                        <div class="Elementos__caja-resumen">
+                        <div class="caja-resumen">
                             <h2 class="caja-resumen__titulo">Resumen semanal</h2>
                             <p class="caja-resumen__fecha">Dias 20/26</p>
                             <a href="" class="caja-resumen__link">Ver tabla</a>
                         </div>
 
 
-                        <div class="Elementos__caja-resumen">
+                        <div class="caja-resumen">
                             <h2 class="caja-resumen__titulo">Resumen semanal</h2>
                             <p class="caja-resumen__fecha">Dias 20/26</p>
                             <a href="" class="caja-resumen__link">Ver tabla</a>
                         </div>
 
-                        <div class="Elementos__caja-resumen">
+                        <div class="caja-resumen">
                             <h2 class="caja-resumen__titulo">Resumen semanal</h2>
                             <p class="caja-resumen__fecha">Dias 20/26</p>
                             <a href="" class="caja-resumen__link">Ver tabla</a>
                         </div>
 
                     </div>
-                    <a href="historial_resumenes.html" class="boton-ver-mas">Ver mas</a>
-                    
+                    <a href="historial_resumenes.html" class="boton--ver-mas">Ver mas</a>
+
                 </div>
 
             </section>
         </section>
     </main>
-    
+
 </body>
+
 </html>

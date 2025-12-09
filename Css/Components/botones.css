@@ -51,7 +51,7 @@
     border: 1px solid transparent;
 }
 
-.boton-ver-mas{
+.boton--ver-mas{
   /*Aplicamos el display*/
   display: flex;
   justify-content: center;
@@ -71,7 +71,7 @@
   border-radius: var(--radio_borde-contenedores);
 }
 
-.boton-realizar-registro{
+.boton--realizar-registro{
     /*Tipo de display y alineamiento de elementos*/
     display: flex;
     justify-content: center;

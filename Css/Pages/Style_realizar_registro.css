@@ -1,10 +1,10 @@
 /* Hoja de estilos para el registro de transacciones */
 
-.Layout-general__contenedor-registro{
+.layout-general__contenedor-registro {
     /*Tamaño y color del contenedor*/
     height: 100%;
     width: 100%;
-    background-color: var( --color_secundario);
+    background-color: var(--color_secundario);
     /*Posicionamiento en la grid general*/
     grid-column: 1/3;
     grid-row: 2;
@@ -14,7 +14,7 @@
     grid-template-columns: 1fr 0.5fr;
 }
 
-.contenedor-registro__formulario{
+.contenedor-registro__formulario {
     height: 100%;
     width: 100%;
     padding: 30px;
@@ -24,7 +24,7 @@
     justify-content: space-between;
 }
 
-.formulario__seccion{
+.formulario__seccion {
     width: 100%;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@
 
 /*==================================== Seccion de informacion del formulario ========================================*/
 
-.formulario__informacion{
+.formulario__informacion {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,17 +41,17 @@
     padding: 30px;
 }
 
-.informacion__titulo{
+.formulario__informacion-titulo {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     color: var(--color_terceario);
     font-size: var(--tamaño_fuente_titulo);
-    font-weight: var( --grosor_titulo);
+    font-weight: var(--grosor_titulo);
 }
 
-.informacion__lista{
+.formulario__informacion-lista {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -60,11 +60,11 @@
     gap: 35px;
 }
 
-.informacion__lista li{
+.formulario__informacion-lista li {
     margin-left: 30px;
 }
 
-.informacion__opciones{
+.formulario__informacion-opciones {
     width: 95%;
     display: flex;
     align-items: center;

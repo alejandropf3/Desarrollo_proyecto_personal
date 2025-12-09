@@ -1,7 +1,7 @@
 /* Hoja  de estilos para el historial de transacciones */
 
 
-.Layout-general__contenedor-transacciones{
+.layout-general__contenedor-transacciones {
     background-color: var(--color_secundario);
     height: 100%;
     width: 100%;
@@ -11,24 +11,24 @@
     border-radius: var(--radio_borde-contenedores);
 }
 
-.contenedor-transacciones__tabla{
+.contenedor-transacciones__tabla {
     width: 100%;
     padding: 10px;
     text-align: center;
 }
 
-.tabla__encabezado th{
+.tabla__encabezado th {
     border-bottom: 1px solid var(--color_linea_divisora);
     font-size: var(--tamaño_fuente_titulo);
     margin: 20px;
 }
 
-.cuerpo__ingreso{
+.tabla__cuerpo-ingreso {
     color: var(--color_ingresos);
     font-size: var(--tamaño_fuente);
 }
 
-.cuerpo__egreso{
+.tabla__cuerpo-egreso {
     font-size: var(--tamaño_fuente);
     color: var(--color_egresos);
 }
