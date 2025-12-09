@@ -25,6 +25,12 @@
     border:  1px solid transparent;
 }
 
+.boton:focus{
+    background-color: var(--color_secundario);
+    color: var(--color_texto-oscuro);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.500);
+}
+
 
 /*Componentes de boton de salida*/
 

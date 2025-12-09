@@ -72,3 +72,53 @@
     align-items: center;
     gap: 10px;
 }
+
+/*======================= Ventana de confirmacion =======================*/
+
+.ventana-confirmacion{
+    /*Desabilitamos la visibilidad por defecto*/
+    visibility: hidden;
+    opacity: 0;
+
+    /*Posicionamos el contenido*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99999;
+}
+
+#ventana-confirmacion-activar:target{
+    /*Habilitamos la visibilidad*/
+    visibility: visible;
+    opacity: 1;
+}
+
+.ventana-confirmacion__contenido{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+
+    /*Aplicamos tamaño*/
+    width: 370px;
+    height: 180px;
+    padding: 20px 50px;
+    /*Aplicamos colores, sombra y radio*/
+    background-color: var(--color_principal);
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid rgba(0, 0, 0, 30%);
+    border-radius: var(--radio_borde-contenedores);
+
+    /*Aplicamos una animacion opcional al aparecer*/
+    transform: scale(0.9);
+    transition: transform 0.3s ease-out;
+}
+
+.ventana-confirmacion__titulo{
+    text-align: center;
+    color: var(--color_secundario);
+    font-size: 25px;
+}
