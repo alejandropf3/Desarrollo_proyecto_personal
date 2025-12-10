@@ -95,13 +95,12 @@
 }
 
 .ventana-confirmacion__contenido{
-
+    /*Aplicamos display y alineamos los elementos*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 5px;
-
     /*Aplicamos tamaño*/
     width: 370px;
     height: 180px;
@@ -111,7 +110,6 @@
     box-shadow: 1px 1px 5px black;
     border: 1px solid rgba(0, 0, 0, 30%);
     border-radius: var(--radio_borde-contenedores);
-
     /*Aplicamos una animacion opcional al aparecer*/
     transform: scale(0.9);
     transition: transform 0.3s ease-out;
@@ -122,3 +120,4 @@
     color: var(--color_secundario);
     font-size: 25px;
 }
+

@@ -73,7 +73,7 @@
   height: 90%;
   border-radius: var(--radio_borde-contenedores);
   background-color: var(--color_secundario);
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -83,13 +83,13 @@
 
 .caja-categorias__titulo{
   color: var(--color_texto-oscuro);
-  font-size: var(--tamaño_fuente_titulo);
+  font-size: 25px;
 }
 
 .caja-categorias__contenido{
   /*Asignamos tamaños*/
   width: 100%;
-  height: 60%;
+  height: 70%;
   /*Aplicamos un box-shadow interno*/
   box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.25);
   /*Aplicamos radio de los bordes*/
@@ -98,5 +98,43 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.ingreso{
+  color: var(--color_ingresos);
+}
+
+.egreso{
+  color: var(--color_egresos);
+}
+
+.item__titulo{
+  font-size: 22px;
+}
+
+.item__parrafo{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contenido__item{
+  width: 100%;
+  height: 55px;
+  background-color: #EDEDED;
+  /*Aplicamos el display*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*Aplicamos el padding y el radio del borde*/
+  padding: 10px;
+  border-radius: var(--radio_borde-contenedores);
+  box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.item__navegacion{ /*Aplicamos el display y alineamos los objetos*/
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }

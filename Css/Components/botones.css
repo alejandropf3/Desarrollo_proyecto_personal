@@ -117,3 +117,43 @@
     text-decoration: none;
     border-radius: var(--radio_borde-contenedores);
 }
+
+.boton--editar{
+    /*Aplicamos el display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Asignamos tamaños al boton */
+    height: 30px;
+    width: 100px;
+    /*Aplicamos color al fondo y una sombra*/
+    background-color: var(--color_secundario);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.500);
+    /*Aplicamos color de letra , tamaño y grosor*/
+    color: var(--color_terceario);
+    font-size: var(--tamaño_fuente_boton-pequeño);
+    font-weight: 600;
+    /*Eliminamos la decoracion y el radio del norde*/
+    text-decoration: none;
+    border-radius: var(--radio_borde-contenedores);
+}
+
+.boton--eliminar{
+    /*Aplicamos el display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Asignamos tamaños al boton */
+    height: 30px;
+    width: 100px;
+    /*Aplicamos color al fondo y una sombra*/
+    background-color: var(--color_secundario);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.500);
+    /*Aplicamos color de letra , tamaño y grosor*/
+    color: var(--color_principal);
+    font-size: var(--tamaño_fuente_boton-pequeño);
+    font-weight: 600;
+    /*Eliminamos la decoracion y el radio del norde*/
+    text-decoration: none;
+    border-radius: var(--radio_borde-contenedores);
+}
