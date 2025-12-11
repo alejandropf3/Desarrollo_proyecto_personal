@@ -120,6 +120,47 @@
         padding: 8px;
     }
 
+    /* -------------------- Menú principal -------------------- */
+    .contenedor__resumenes {
+        height: auto;
+        min-height: 300px;
+        gap: 15px;
+    }
+
+    .resumenes__elementos {
+        max-height: 200px;
+        overflow-y: auto;
+    }
+
+    /* -------------------- Formularios de recuperación -------------------- */
+    .formulario-recuperacion,
+    .formulario-codigo,
+    .formulario-cambio-contrasena {
+        width: 90%;
+        max-width: 480px;
+        height: auto;
+        padding: 25px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .formulario__navegacion--alineado {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .formulario-recuperacion__form,
+    .formulario-codigo__form,
+    .formulario-cambio-contrasena__form {
+        width: 85%;
+        gap: 30px;
+    }
+
+    .formulario__input {
+        width: 100%;
+    }
+
     /* -------------------- Registro de transacciones -------------------- */
     .layout-general__contenedor-registro {
         grid-template-columns: 1fr 0.6fr;
@@ -249,21 +290,24 @@
 
     .formulario__navegacion--alineado {
         width: 100%;
-        flex-direction: column;
-        gap: 15px;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
     }
 
     /* -------------------- Botones -------------------- */
     .boton {
         min-height: 44px;
-        width: 100%;
-        max-width: 200px;
+        width: auto;
+        min-width: 120px;
+        padding: 10px 20px;
     }
 
     .boton--salir {
         min-height: 44px;
-        width: 100%;
-        max-width: 200px;
+        width: auto;
+        min-width: 120px;
+        padding: 10px 20px;
     }
 
     /* -------------------- Layouts de menú -------------------- */
@@ -627,7 +671,7 @@
         height: 70px;
     }
 
-    .formulario__campos-usuario{
+    .formulario__campos-usuario {
         width: 100%;
     }
 

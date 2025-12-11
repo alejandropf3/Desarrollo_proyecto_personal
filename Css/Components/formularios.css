@@ -84,10 +84,10 @@
 
 .formulario-inicio__form {
     /*Parametros del formulario*/
+    width: 85%;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 0 20px;
 }
 
 .formulario-inicio__link {
@@ -118,6 +118,7 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
+    width: 85%;
 }
 
 /*==================== Formulario de recuperacion de contraseña =============================*/
@@ -214,7 +215,6 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-top: 0 20px;
 }
 
 /*==================== Formulario de registro de transaccion =============================*/
