@@ -131,11 +131,11 @@
   padding: 10px;
   border-radius: var(--radio_borde-contenedores);
   box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.25);
-  transition: transform 800ms ease 0s;
+  transition: transform 900ms ease 0s;
 }
 
 .contenido__item:hover{
-  transform: scale(1.03, 1.03);
+  transform: scale(1.01,1.06);
 }
 
 .item__navegacion{ /*Aplicamos el display y alineamos los objetos*/
