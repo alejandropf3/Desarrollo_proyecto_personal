@@ -1,0 +1,14 @@
+/* hoja de estilos para la vista de administrar usuarios */
+
+.layout-general__tabla-usuarios{
+    /* Damos un tamaño al contenedor*/
+    height: 100%;
+    width: 100%;
+    /*Asignamos un color de fondo y radio del borde*/
+    background-color: var(--color_secundario);
+    border-radius: var(--radio_borde-contenedores);
+    /*Asignamos su posicion en la grid*/
+    grid-row: 2;
+    grid-column: 1/3;
+
+}
