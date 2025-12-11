@@ -1,17 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Styles_principal.css">
 </head>
+
 <body>
 
-      <!-- Seccion de header -->
+    <!-- Checkbox para controlar el sidebar -->
+    <input type="checkbox" id="sidebar-toggle" class="sidebar__toggle">
+
+    <!-- Overlay del sidebar -->
+    <label for="sidebar-toggle" class="sidebar__overlay"></label>
+
+    <!-- Sidebar para móvil -->
+    <aside class="sidebar">
+        <div class="sidebar__contenido">
+            <div class="sidebar__header">
+                <h2 class="sidebar__logo">ECONOMIC</h2>
+                <label for="sidebar-toggle" class="sidebar__cerrar">
+                    <i class="bi bi-x-lg"></i>
+                </label>
+            </div>
+
+            <nav class="sidebar__navegacion">
+                <a href="menu_principal.html" class="sidebar__link">
+                    <i class="bi bi-house-fill"></i>
+                    Inicio
+                </a>
+                <a href="historial_transacciones.html" class="sidebar__link">
+                    <i class="bi bi-clock-history"></i>
+                    Historial de transacciones
+                </a>
+                <a href="historial_resumenes.html" class="sidebar__link">
+                    <i class="bi bi-file-text-fill"></i>
+                    Historial de resúmenes
+                </a>
+                <a href="configuracion_usuario.html" class="sidebar__link">
+                    <i class="bi bi-gear-fill"></i>
+                    Opciones
+                </a>
+                <a href="administrar_usuarios.html" class="sidebar__link sidebar__link--activo">
+                    <i class="bi bi-people-fill"></i>
+                    Admin
+                </a>
+            </nav>
+
+            <div class="sidebar__usuario">
+                <div class="sidebar__usuario-info">
+                    <div class="sidebar__usuario-icono">
+                        <i class="bi bi-person-fill"></i>
+                    </div>
+                    <div class="sidebar__usuario-datos">
+                        <p class="sidebar__usuario-nombre">Nombre de usuario</p>
+                        <p class="sidebar__usuario-email">Cor****@gmail.com</p>
+                    </div>
+                </div>
+                <a href="../index.html" class="sidebar__salir">
+                    <i class="bi bi-box-arrow-right"></i>
+                    Cerrar sesión
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Seccion de header -->
     <header class="main-header">
         <div class="encabezado">
             <h1 class="encabezado__logo">ECONOMIC</h1>
+
+            <!-- Botón hamburguesa para móvil -->
+            <label for="sidebar-toggle" class="hamburguesa">
+                <span class="hamburguesa__linea"></span>
+                <span class="hamburguesa__linea"></span>
+                <span class="hamburguesa__linea"></span>
+            </label>
 
             <nav class="encabezado__navegacion">
                 <a href="menu_principal.html" class="encabezado__link">Inicio</a>
@@ -49,7 +115,7 @@
         </div>
     </header>
 
-     <!-- Seccion main -->
+    <!-- Seccion main -->
     <main class="main-menu">
         <section class="main-menu__layout-general">
             <div class="layout-menu__informacion">
@@ -143,8 +209,9 @@
             </table>
 
 
-        </section> 
-    </main>   
-    
+        </section>
+    </main>
+
 </body>
+
 </html>

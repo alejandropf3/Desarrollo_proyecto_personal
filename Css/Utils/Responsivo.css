@@ -198,28 +198,29 @@
         min-height: auto;
     }
 
-    /* -------------------- Header -------------------- */
+    /* -------------------- Header con hamburguesa -------------------- */
     .encabezado {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        padding: 15px;
-    }
-
-    .encabezado__navegacion {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        width: 100%;
-    }
-
-    .encabezado__link {
-        font-size: 15px;
+        justify-content: space-between;
+        padding: 10px 15px;
     }
 
     .encabezado__logo {
-        width: 100%;
-        text-align: center;
+        width: auto;
+        text-align: left;
+    }
+
+    /* Mostrar hamburguesa en móvil */
+    .hamburguesa {
+        display: flex;
+    }
+
+    /* Ocultar navegación normal en móvil */
+    .encabezado__navegacion {
+        display: none;
+    }
+
+    .encabezado__icono {
+        display: none;
     }
 
     /* -------------------- Footer -------------------- */
