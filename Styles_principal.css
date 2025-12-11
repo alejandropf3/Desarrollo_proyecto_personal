@@ -17,3 +17,4 @@
 @import url(Css/Components/Ventana_emergente.css);
 @import url(Css/Pages/Style_realizar_registro.css);
 @import url(Css/Pages/Style_administrar_usuarios.css);
+@import url(Css/Utils/Responsivo.css); /* Media queries para responsive design */

@@ -9,6 +9,8 @@
     grid-column: 1/3;
     display: flex;
     border-radius: var(--radio_borde-contenedores);
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .contenedor-transacciones__tabla {
