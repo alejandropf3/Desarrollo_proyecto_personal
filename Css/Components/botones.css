@@ -157,3 +157,46 @@
     text-decoration: none;
     border-radius: var(--radio_borde-contenedores);
 }
+
+.boton--cancelar{
+    /*Aplicamos el display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Asignamos tamaños al boton */
+    height: 30px;
+    width: 130px;
+    /*Aplicamos color al fondo y una sombra*/
+    background-color: var(--color_principal);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.500);
+    /*Aplicamos color de letra , tamaño y grosor*/
+    color: var(--color_secundario);
+    font-size: var(--tamaño_fuente_boton-pequeño);
+    font-weight: 600;
+    /*Eliminamos la decoracion y el radio del norde*/
+    text-decoration: none;
+    border-radius: var(--radio_borde-contenedores);
+}
+
+
+.boton--guardar{
+    /*Aplicamos el display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Asignamos tamaños al boton */
+    height: 30px;
+    width: 130px;
+    /*Aplicamos color al fondo y una sombra*/
+    background-color: var(--color_terceario);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.500);
+    /*Aplicamos color de letra , tamaño y grosor*/
+    color: var(--color_secundario);
+    font-size: var(--tamaño_fuente_boton-pequeño);
+    font-weight: 600;
+    /*Eliminamos la decoracion y el radio del norde*/
+    text-decoration: none;
+    border-radius: var(--radio_borde-contenedores);
+    border:  1px solid transparent;
+    cursor: pointer;
+}

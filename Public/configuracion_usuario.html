@@ -114,11 +114,12 @@
                 <div class="contenedor-derecha__caja-categorias">
                     <h2 class="caja-categorias__titulo">Categorias</h2>
                     <div class="caja-categorias__contenido">
+
                         <div class="contenido__item ingreso">
                             <h2 class="item__titulo">Pago de servicios</h2>
                             <p class="item__parrafo">Ingreso +</p>
                             <nav class="item__navegacion">
-                                <a href="" class="boton--editar">Editar</a>
+                                <a href="#ventana-modificar-categoria-confirmar" class="boton--editar">Editar</a>
                                 <a href="" class="boton--eliminar">Eliminar</a>
                             </nav>
                         </div>
@@ -127,14 +128,56 @@
                             <h2 class="item__titulo">Pago de servicios</h2>
                             <p class="item__parrafo">Ingreso +</p>
                             <nav class="item__navegacion">
-                                <a href="" class="boton--editar">Editar</a>
+                                <a href="#ventana-modificar-categoria-confirmar" class="boton--editar">Editar</a>
                                 <a href="" class="boton--eliminar">Eliminar</a>
                             </nav>
                         </div>
+
                     </div>
-                    <a href="" class="boton--crear-categoria">Crear categoria +</a>
+                    <a href="#ventana-crear-categoria-confirmar" class="boton--crear-categoria">Crear categoria +</a>
+
                 </div>
 
+            </div>
+
+            <div id="ventana-crear-categoria-confirmar" class="ventana-crear-categoria">
+                <form action="configuracion_usuario.html" method="get" class="ventana-crear-categoria__formulario-crear">
+                    <h2 class="formulario-crear__titulo">Crear categoria</h2>
+
+                    <div class="formulario-crear__contenido">
+                        <input type="text" placeholder="Nombre categoria" class="contenido__input">
+                        <select name="" id="" class="contenido__input">
+                            <option value="" disabled selected>Tipo</option>
+                            <option value="">Ingreso +</option>
+                            <option value="">Egreso -</option>
+                        </select>
+                    </div>
+
+                    <nav class="formulario-crear__navegacion">
+                        <a href="#ventana-crear-categoria-cerrar" class="boton--cancelar">Cancelar</a>
+                        <button type="submit" class="boton--guardar">Guardar</button>
+                    </nav>
+                </form>
+            </div>
+
+            <div id="ventana-modificar-categoria-confirmar" class="ventana-modificar-categoria">
+                <form action="configuracion_usuario.html" method="get" class="ventana-modificar-categoria__formulario-editar">
+                    <h2 class="formulario-editar__titulo">Editar categoria</h2>
+
+                    <div class="formulario-editar__contenido">
+                        <input type="text" placeholder="Nuevo nombre categoria" class="contenido__input">
+                        <select name="" id="" class="contenido__input">
+                            <option value="" disabled selected>Nuevo tipo</option>
+                            <option value="">Ingreso +</option>
+                            <option value="">Egreso -</option>
+                        </select>
+                    </div>
+
+                    <nav class="formulario-editar__navegacion">
+                        <a href="#ventana-modificar-categoria-cerrar" class="boton--cancelar">Cancelar</a>
+                        <button type="submit" class="boton--guardar">Guardar</button>
+                    </nav>
+                </form>
             </div>
 
         </section>
